@@ -1,4 +1,5 @@
-Todos:
+Todos
+..........................................................................
 WEB PLATFORM:
   PLATFORM  OPEN  GIS   3D    TILT  VR    COMMENT
   Mapbox    yes   yes   yes   no          can use to import maps
@@ -11,22 +12,22 @@ WEB PLATFORM:
 CODE
 GIS: 
 - ZONING HEATMAP (info & color)
-  Municipan
-  Property              - too large for GeoJSON, need to VectorTile
+  Municipal             - used to test if location has GIS info (ie. Toronto)
+  Property              * too large for GeoJSON, need to VectorTile?
   Height                - included
-  Building
-  Address
-  Street 
-  Intersection
+  Building              * test import with height
+  Address               - used to test geocoder
+  Street                - used to test property facing direction
+  Intersection          - not needed?
+  Other: Schools        - not needed?
 - LAYER CONTROL         - need to check
 - GEOCODER              - Cesium seems to work
 ALGORITHMS: 
-- parse, 
-- build in sep. js?
+- parse                 - see workflow
 3D MASSING:
-- controls sliders etc
-- draw Mass
-- draw shadow in time   - Cesium sun?
+- controls sliders etc  - Cesium works?
+- draw Mass             - Test drawing
+- draw shadow in time   * Cesium sun?
 REPORT:
-- spreadsheet info
-- output excel
+- spreadsheet info      - js?
+- output excel          - mail js?
