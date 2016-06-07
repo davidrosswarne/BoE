@@ -1,0 +1,32 @@
+Todos:
+WEB PLATFORM:
+  PLATFORM  OPEN  GIS   3D    TILT  VR    COMMENT
+  Mapbox    yes   yes   yes   no          can use to import maps
+  Leaflet   yes   yes   yes   no    
+  OpenLayer no    yes   yes   no          proprietary?
+  Vizicity  yes   ?     yes   yes         underdeveloped
+  Cesium    yes   yes   yes   yes   yes   Create & Cyber3D use this 
+  MapZen    ?
+
+CODE
+GIS: 
+- ZONING HEATMAP (info & color)
+  Municipan
+  Property              - too large for GeoJSON, need to VectorTile
+  Height                - included
+  Building
+  Address
+  Street 
+  Intersection
+- LAYER CONTROL         - need to check
+- GEOCODER              - Cesium seems to work
+ALGORITHMS: 
+- parse, 
+- build in sep. js?
+3D MASSING:
+- controls sliders etc
+- draw Mass
+- draw shadow in time   - Cesium sun?
+REPORT:
+- spreadsheet info
+- output excel
