@@ -13,9 +13,9 @@ CODE
 GIS: 
 - ZONING HEATMAP (info & color)
   Municipal             - used to test if location has GIS info (ie. Toronto)
-  Property              * too large for GeoJSON, need to VectorTile?
+  Property              * too large for GeoJSON, need to VectorTile? or use smaller set for testing?
   Height                - included
-  Building              * test import with height
+  Building              * test import with height use a smaller set for testing?
   Address               - used to test geocoder
   Street                - used to test property facing direction
   Intersection          - not needed?
@@ -27,7 +27,7 @@ ALGORITHMS:
 3D MASSING:
 - controls sliders etc  - Cesium works?
 - draw Mass             - Test drawing
-- draw shadow in time   * Cesium sun?
+- draw shadow in time   - Shadows in next release~ July1-16; Cesium sun?
 REPORT:
 - spreadsheet info      - js?
 - output excel          - mail js?
